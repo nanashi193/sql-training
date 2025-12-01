@@ -1,5 +1,10 @@
 -- note: null values are not counted
 
+--syntax:
+SELECT COUNT(column_name) -- avg(column_name), sum(column_name)
+FROM table_name
+--WHERE;
+
 -- The COUNT() function returns the number of rows that matches a specified criterion.
 SELECT count(ProductID)
 FROM Products;
