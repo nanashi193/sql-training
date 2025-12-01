@@ -1,5 +1,12 @@
 -- The LIMIT clause is used to specify the number of records to return.
 -- The following SQL statement selects the first three records from the "Customers" table:
+
+-- syntax:
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+LIMIT number;
+
 select * from Customers
 limit 3;
 
