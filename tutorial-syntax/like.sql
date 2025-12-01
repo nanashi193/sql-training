@@ -2,6 +2,12 @@
 -- The percent sign (%) represents zero, one, or multiple characters
 -- The underscore sign (_) represents one, single character
 
+-- syntax:
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;
+
+
 -- some examples showing different LIKE operators with '%' and '_' wildcards:
 Where CustomerName LIKE 'a%'    -- finds any values that start with "a"
 Where CustomerName like '%a'    -- finds any values that end with "a"
