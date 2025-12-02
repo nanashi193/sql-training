@@ -22,7 +22,7 @@ and CategoryID not in (1,2,3);
 --  selects all products with a ProductName between "Carnarvon Tigers" and "Chef Anton's Cajun Seasoning":
 SELECT *
 FROM Products
-where ProductName BETWEEN "Carnarvon Tigers" and "Chef Anton's Cajun Seasoning"
+where ProductName BETWEEN 'Carnarvon Tigers' and "Chef Anton's Cajun Seasoning" -- '' or ""
 ORDER BY ProductName;
 
 -- selects all orders with an OrderDate between '01-July-1996' and '31-July-1996':
