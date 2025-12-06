@@ -1,0 +1,1 @@
+-- The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records (if any) from the left table (table1).
