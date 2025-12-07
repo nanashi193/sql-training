@@ -6,3 +6,8 @@ FROM table1
 CROSS JOIN table2;
 
 -- Note: CROSS JOIN can potentially return very large result-sets!
+
+--example:
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+CROSS JOIN Orders;
