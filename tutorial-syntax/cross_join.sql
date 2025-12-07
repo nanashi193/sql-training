@@ -4,3 +4,5 @@
 SELECT column_name(s)
 FROM table1
 CROSS JOIN table2;
+
+-- Note: CROSS JOIN can potentially return very large result-sets!
