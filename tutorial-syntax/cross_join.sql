@@ -11,3 +11,5 @@ CROSS JOIN table2;
 SELECT Customers.CustomerName, Orders.OrderID
 FROM Customers
 CROSS JOIN Orders;
+
+-- The CROSS JOIN keyword returns all matching records from both tables whether the other table matches or not. 
