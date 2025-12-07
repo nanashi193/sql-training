@@ -1,0 +1,1 @@
+-- The CROSS JOIN keyword returns all records from both tables (table1 and table2).
