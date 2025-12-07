@@ -1,1 +1,6 @@
 -- The CROSS JOIN keyword returns all records from both tables (table1 and table2).
+
+--syntax:
+SELECT column_name(s)
+FROM table1
+CROSS JOIN table2;
