@@ -11,3 +11,4 @@
 SELECT column_name(s) FROM table1
 UNION
 SELECT column_name(s) FROM table2;
+-- Note: The column names in the result-set are usually equal to the column names in the first SELECT statement.
