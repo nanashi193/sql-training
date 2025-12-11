@@ -18,3 +18,13 @@ SELECT City FROM Customers
 UNION
 SELECT City FROM Suppliers
 ORDER BY City;
+-- Note: To allow duplicate values, use the UNION ALL operator.
+
+-- SQL UNION With WHERE
+--returns the German cities (only distinct values) from both the "Customers" and the "Suppliers" table:
+SELECT City, Country FROM Customers
+WHERE Country='Germany'
+UNION
+SELECT City, Country FROM Suppliers
+WHERE Country='Germany'
+ORDER BY City;
