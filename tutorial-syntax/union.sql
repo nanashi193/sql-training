@@ -14,3 +14,7 @@ SELECT column_name(s) FROM table2;
 -- Note: The column names in the result-set are usually equal to the column names in the first SELECT statement.
 
 -- example: returns the cities (only distinct values) from both the "Customers" and the "Suppliers" table:
+SELECT City FROM Customers
+UNION
+SELECT City FROM Suppliers
+ORDER BY City;
