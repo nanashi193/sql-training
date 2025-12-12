@@ -28,3 +28,10 @@ UNION
 SELECT City, Country FROM Suppliers
 WHERE Country='Germany'
 ORDER BY City;
+
+--  lists all customers and suppliers:
+SELECT 'Customer' AS Type, ContactName, City, Country
+FROM Customers
+UNION
+SELECT 'Supplier', ContactName, City, Country
+FROM Suppliers;
