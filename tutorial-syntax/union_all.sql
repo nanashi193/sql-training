@@ -1,0 +1,1 @@
+-- The UNION ALL operator is used to combine the result-set of two or more SELECT statements.
