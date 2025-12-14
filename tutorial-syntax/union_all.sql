@@ -10,3 +10,18 @@
 SELECT column_name(s) FROM table1
 UNION ALL
 SELECT column_name(s) FROM table2;
+-- Note: The column names in the result-set are usually equal to the column names in the first SELECT statement.
+
+-- example: returns the cities (duplicate values also) from both the "Customers" and the "Suppliers" table:
+SELECT City FROM Customers
+UNION ALL
+SELECT City FROM Suppliers
+ORDER BY City;
+-- SQL UNION ALL With WHERE
+
+SELECT City, Country FROM Customers
+WHERE Country='Germany'
+UNION ALL
+SELECT City, Country FROM Suppliers
+WHERE Country='Germany'
+ORDER BY City;
