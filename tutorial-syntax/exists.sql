@@ -6,3 +6,13 @@ SELECT column_name(s)
 FROM table_name
 WHERE EXISTS
 (SELECT column_name FROM table_name) --WHERE condition);
+
+--  returns TRUE and lists the suppliers with a product price less than 20:
+SELECT SupplierName
+FROM Suppliers
+WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.supplierID AND Price < 20);
+
+-- returns TRUE and lists the suppliers with a product price equal to 22:
+SELECT SupplierName
+FROM Suppliers
+WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.supplierID AND Price = 22);
