@@ -1,0 +1,1 @@
+-- The ANY and ALL operators allow you to perform a comparison between a single column value and a range of other values.
