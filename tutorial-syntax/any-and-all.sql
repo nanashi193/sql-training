@@ -13,3 +13,6 @@ WHERE column_name operator ANY
   FROM table_name
   WHERE condition);
 -- Note: The operator must be a standard comparison operator (=, <>, !=, >, >=, <, or <=).
+
+-- example:
+--  lists the ProductName if it finds ANY records in the OrderDetails table has Quantity equal to 10 (this will return TRUE because the Quantity column has some values of 10):
