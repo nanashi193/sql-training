@@ -1,2 +1,9 @@
 -- The INSERT INTO SELECT statement copies data from one table and inserts it into another table.
 -- The INSERT INTO SELECT statement requires that the data types in source and target tables matches.
+
+-- Note: The existing records in the target table are unaffected.
+
+-- syntax:
+INSERT INTO table2
+SELECT * FROM table1
+-- WHERE condition;
