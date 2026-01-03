@@ -2,3 +2,7 @@
 
 DROP TABLE table_name;
 -- Note: Be careful before dropping a table. Deleting a table will result in loss of complete information stored in the table!
+
+-- The TRUNCATE TABLE statement is used to delete the data inside a table, but not the table itself.
+
+TRUNCATE TABLE table_name;
