@@ -8,3 +8,13 @@ ADD column_name datatype;
 ALTER TABLE Customers
 ADD Email varchar(255);
 
+-- drop:
+ALTER TABLE table_name
+DROP COLUMN column_name;
+-- example:
+ALTER TABLE Customers
+DROP COLUMN Email;
+
+-- modify:
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype;
