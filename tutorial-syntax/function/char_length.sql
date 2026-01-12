@@ -13,3 +13,5 @@ SELECT CHAR_LENGTH("SQL Tutorial") AS LengthOfString;
 
 SELECT CHAR_LENGTH(CustomerName) AS LengthOfName
 FROM Customers;
+
+-- Return the length of the text in the "ProductName" column:
