@@ -3,5 +3,5 @@
 -- syntax:
 -- INSERT(string, position, number, string2)
 
-SELECT INSERT("W3Schools.com", 11, 3, "no");
+-- SELECT INSERT("W3Schools.com", 11, 3, "no");
 -- returns "W3Schools.no"
