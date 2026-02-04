@@ -6,4 +6,4 @@
 -- LOCATE(substring, string, start_position)
 
 SELECT LOCATE("com", "W3Schools.com", 3) AS MatchPosition;
--- returns 8
+-- returns 11
