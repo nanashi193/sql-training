@@ -3,5 +3,5 @@
 
 -- syntax:
 -- REPLACE(original_string, substring_to_replace, new_substring)
-SELECT REPLACE("Hello World!", "World", "SQL") AS ReplacedString;
--- returns "Hello SQL!"
+SELECT REPLACE("Hello World!", "World", "Hung") AS ReplacedString;
+-- returns "Hello Hung!"
