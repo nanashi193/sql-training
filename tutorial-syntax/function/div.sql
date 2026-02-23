@@ -1,0 +1,3 @@
+-- The DIV function is used for integer division (x is divided by y). An integer value is returned.
+-- SELECT 8 div 3;
+-- returns 2
